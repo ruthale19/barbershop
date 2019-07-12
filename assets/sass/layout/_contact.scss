@@ -1,0 +1,56 @@
+/* Form Layout */
+.contact {
+  border: 0.2em solid $platinum;
+  padding: 5em 3em;
+
+
+  &__img {
+
+    &--redonda {
+      width: 12.5em;
+      height: 12.5em;
+      border-radius:10em;
+      border:0.2em solid $light-gray;
+    }
+
+  }
+
+  &__text1 {
+    font-family: $playfair;
+    font-weight: $bold;
+    font-size: $x-large;
+    font-style: $it;
+    padding-top: 1.5em;
+  }
+
+  &__text2 {
+    text-align: center;
+    font-weight: $min;
+    font-size: $large;
+    color: $spanish-pink;
+    padding-left: 0;
+    text-decoration: none;
+
+    &:hover {
+      color: $nickel;
+      text-decoration: none;
+    }
+
+    &:active {
+      color: $platinum;
+      text-decoration: none;
+    }
+
+  }
+
+  &__text3 {
+    padding-top: 2.5em;
+    line-height: 3em;
+  }
+}
+
+@media(max-width:991px) {
+  .contact_alineacion {
+    text-align: center;
+  }
+}

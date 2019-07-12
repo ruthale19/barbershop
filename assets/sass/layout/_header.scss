@@ -1,0 +1,27 @@
+/* Header Layout */
+header {
+  background-image: url('../img/post-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+}
+
+.header_container {
+  width: 45%;
+  margin: 0 auto;
+  padding-top: 10em;
+}
+
+.header__text{
+  font-family: $playfair;
+  font-weight: $bold;
+  font-size: $xx-large;
+  font-style: $it;
+}
+
+@media (max-width: 500px){
+  .header__text--sizeL {
+      font-size: $x-large;
+  }
+}

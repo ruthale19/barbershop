@@ -1,0 +1,23 @@
+.pagination {
+  padding: 3em;
+  background-color: $platinum;
+  margin-bottom: 0;
+
+}
+
+.page-item {
+
+}
+
+.page-item.disabled .page-link {
+  color: $light-gray;
+}
+
+.page-link {
+  color: $nickel;
+}
+
+.page-item.active .page-link {
+  background-color: $nickel;
+  border-color: $nickel;
+}

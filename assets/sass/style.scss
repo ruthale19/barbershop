@@ -1,0 +1,22 @@
+// style.scss # Manifest File
+// abstracts
+@import 'abstracts/variables';
+
+//vendors
+@import 'vendors/bootstrap-4.3.1/bootstrap';
+
+// Base
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+
+// Layout
+@import 'layout/header';
+@import 'layout/us';
+@import 'layout/contact';
+@import 'layout/footer';
+
+// Components
+@import 'components/navigator';
+@import 'components/buttons';
+@import 'components/pagination';

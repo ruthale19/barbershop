@@ -1,0 +1,20 @@
+.us {
+  padding: 0 3em 5em 3em;
+
+  &__text {
+    font-family: $playfair;
+    color: $nickel;
+    font-size: $large;
+    padding-bottom: 3em;
+  }
+
+  &__textp {
+    padding-bottom: 3em;
+    line-height: 3em;
+    color: $nickel;
+
+    &--pink {
+      color: $ruddy-pink;
+    }
+  }
+}

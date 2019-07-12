@@ -1,0 +1,27 @@
+.button {
+  padding: .7rem 2rem;
+  border-radius: 1.5625em;
+  margin-right: 1em;
+
+
+  &__btn-nickel {
+    background-color: $nickel;
+    color: $platinum;
+    border: 1px solid $nickel;
+  }
+
+  &__pseudo {
+    &:hover {
+      background-color: $platinum;
+      border-color: $platinum;
+      color: $white;
+    }
+
+    &:focus {
+      background-color: $nickel;
+      border-color: $platinum;
+      color: $white;
+    }
+
+  }
+}
